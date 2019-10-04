@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.login">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions> <!--dinh nghia hang , dinh nghia cot-->
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2*"/>
+                
+            </Grid.ColumnDefinitions>
+            <Label Text="UserName"  Grid.Column="0" Grid.Row="0" HorizontalOptions="Start" VerticalOptions="Center"/>
+            <Entry x:Name="txtusername" Grid.Column="1" Grid.Row="0"/>
+            <Label Text="password"  Grid.Column="0" Grid.Row="1" HorizontalOptions="Start" VerticalOptions="Center"/>
+            <Entry x:Name="txtpassword" IsPassword="True" Grid.Column="1" Grid.Row="1"/>
+            <Button x:Name="cmdlogin" Text="Login" Clicked="bt_login" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"/>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

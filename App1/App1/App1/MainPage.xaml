@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App1.MainPage">
+
+    <StackLayout>
+        <Button x:Name="cmdhelloscreen" Text="Màn hình chào" Clicked="bt_click1"/>
+        <Button x:Name="cmdsum" Text="Màn hình tính tổng" Clicked="bt_click2"/>
+        <Button x:Name="cmdstack" Text="Stack Layout" />
+            
+        <Button x:Name="cmdabsolute" Text="Absolute Layout"/> <!--Clicked="cmdabsolute_clicked"/>-->
+        <Button x:Name="cmdcal" Text="Caculator" Clicked="bt_cal" /> 
+        <Button x:Name="cmdlogin" Text="Login" Clicked="bt_login" />
+    </StackLayout>
+   
+</ContentPage>
