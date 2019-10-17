@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="baitaptuan2.PageListViewhoa">
+    <ContentPage.Content>
+        <ListView x:Name="lsvflower" HasUnevenRows="True" >
+            <!--lsvflower giong nhu khai bao bien chua de them cac thuoc tinh cua hoa vao trang-->
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="*"/>
+                               
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="3*"/>
+                            </Grid.ColumnDefinitions>
+                            <Image 
+                                   Source="{Binding image}"
+                                   HeightRequest="60"
+                                   WidthRequest="60"
+                                   Aspect="AspectFill"
+                                   Grid.Row="0" Grid.Column="0" 
+                                   Grid.RowSpan="3"/>
+                            <Label Text="{Binding flowername}" TextColor="SeaGreen" Grid.Column="1" Grid.Row="0"/>
+                            <Label Text="{Binding describe}" Grid.Column="1" Grid.Row="1"/>
+                            <Label Text="{Binding price}" TextColor="Blue" Grid.Column="1" Grid.Row="2"/>
+                        </Grid>
+                    </ViewCell>
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>
