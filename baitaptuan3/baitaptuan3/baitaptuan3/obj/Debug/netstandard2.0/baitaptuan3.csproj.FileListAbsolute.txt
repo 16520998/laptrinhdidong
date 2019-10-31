@@ -1,0 +1,16 @@
+C:\Users\ASUS\source\repos\baitaptuan3\baitaptuan3\baitaptuan3\bin\Debug\netstandard2.0\baitaptuan3.deps.json
+C:\Users\ASUS\source\repos\baitaptuan3\baitaptuan3\baitaptuan3\bin\Debug\netstandard2.0\baitaptuan3.dll
+C:\Users\ASUS\source\repos\baitaptuan3\baitaptuan3\baitaptuan3\obj\Debug\netstandard2.0\baitaptuan3.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\baitaptuan3\baitaptuan3\baitaptuan3\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ASUS\source\repos\baitaptuan3\baitaptuan3\baitaptuan3\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ASUS\source\repos\baitaptuan3\baitaptuan3\baitaptuan3\obj\Debug\netstandard2.0\baitaptuan3.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\baitaptuan3\baitaptuan3\baitaptuan3\obj\Debug\netstandard2.0\baitaptuan3.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\baitaptuan3\baitaptuan3\baitaptuan3\obj\Debug\netstandard2.0\baitaptuan3.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\baitaptuan3\baitaptuan3\baitaptuan3\bin\Debug\netstandard2.0\baitaptuan3.pdb
+C:\Users\ASUS\source\repos\baitaptuan3\baitaptuan3\baitaptuan3\obj\Debug\netstandard2.0\PageListflower.xaml.g.cs
+C:\Users\ASUS\source\repos\baitaptuan3\baitaptuan3\baitaptuan3\obj\Debug\netstandard2.0\Page_addflowercategory.xaml.g.cs
+C:\Users\ASUS\source\repos\baitaptuan3\baitaptuan3\baitaptuan3\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ASUS\source\repos\baitaptuan3\baitaptuan3\baitaptuan3\obj\Debug\netstandard2.0\baitaptuan3.dll
+C:\Users\ASUS\source\repos\baitaptuan3\baitaptuan3\baitaptuan3\obj\Debug\netstandard2.0\baitaptuan3.pdb
+C:\Users\ASUS\source\repos\baitaptuan3\baitaptuan3\baitaptuan3\obj\Debug\netstandard2.0\addflowerpage.xaml.g.cs
+C:\Users\ASUS\source\repos\baitaptuan3\baitaptuan3\baitaptuan3\obj\Debug\netstandard2.0\HoaPage.xaml.g.cs

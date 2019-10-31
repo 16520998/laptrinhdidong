@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="baitaptuan3.addflowerpage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="4*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition  Width="*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <Label Text="Mã loại" Grid.Column="0" Grid.Row="0"/>
+            <Picker x:Name="selectloai" ItemDisplayBinding="{Binding MaLoai}"  Title="Chọn Loại hoa" Grid.Column="1" Grid.Row="0"/>
+                     <!--ItemsSource="{Binding LoaiHoaList}" SelectedIndex="{Binding MaLoai,Mode=TwoWay}"-->
+
+            <Label Text="Tên hoa" Grid.Column="0" Grid.Row="1"/>
+            <Entry x:Name="txttenhoa" Placeholder="tên hoa" Grid.Column="1" Grid.Row="1"/>
+            <Label Text="Hình" Grid.Column="0" Grid.Row="2"/>
+           <Image   Grid.Column="1" Grid.Row="2"/>
+            <Label Text="Giá bán" Grid.Column="0" Grid.Row="3"/>
+            <Entry x:Name="txtgia" Grid.Column="1" Grid.Row="3"/>
+            <Label Text="Mô tả" Grid.Column="0" Grid.Row="4"/>
+            <Editor x:Name="txtmota" HeightRequest="100" Placeholder="mota" Grid.Column="1" Grid.Row="4"/>
+            <Button x:Name="cmdthemhoa" VerticalOptions="Center" 
+                    Clicked="Cmdthemhoa_Clicked" 
+                    Text="Thêm hoa" 
+                    Grid.Column="0" Grid.Row="5"/>
+            <Button x:Name="cmdxoahoa" Text="Xóa hoa" VerticalOptions="Center" 
+                    Grid.Column="1" Grid.Row="5"/>
+                    <!--Clicked="Cmdxoahoa_Clicked"-->
+            <!--<Picker ItemsSource="{Binding Loaihoalist}" SelectedIndex="{Binding MaLoai,Mode=TwoWay}"  Grid.Column="1" Grid.Row="6"/>-->
+
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
