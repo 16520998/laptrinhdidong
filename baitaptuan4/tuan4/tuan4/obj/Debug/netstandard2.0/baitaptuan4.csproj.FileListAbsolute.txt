@@ -1,0 +1,13 @@
+C:\Users\ASUS\source\repos\tuan4\tuan4\tuan4\bin\Debug\netstandard2.0\baitaptuan4.deps.json
+C:\Users\ASUS\source\repos\tuan4\tuan4\tuan4\bin\Debug\netstandard2.0\baitaptuan4.dll
+C:\Users\ASUS\source\repos\tuan4\tuan4\tuan4\bin\Debug\netstandard2.0\baitaptuan4.pdb
+C:\Users\ASUS\source\repos\tuan4\tuan4\tuan4\obj\Debug\netstandard2.0\baitaptuan4.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\tuan4\tuan4\tuan4\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ASUS\source\repos\tuan4\tuan4\tuan4\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ASUS\source\repos\tuan4\tuan4\tuan4\obj\Debug\netstandard2.0\ShowflowerPage.xaml.g.cs
+C:\Users\ASUS\source\repos\tuan4\tuan4\tuan4\obj\Debug\netstandard2.0\baitaptuan4.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\tuan4\tuan4\tuan4\obj\Debug\netstandard2.0\baitaptuan4.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\tuan4\tuan4\tuan4\obj\Debug\netstandard2.0\baitaptuan4.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\tuan4\tuan4\tuan4\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ASUS\source\repos\tuan4\tuan4\tuan4\obj\Debug\netstandard2.0\baitaptuan4.dll
+C:\Users\ASUS\source\repos\tuan4\tuan4\tuan4\obj\Debug\netstandard2.0\baitaptuan4.pdb
