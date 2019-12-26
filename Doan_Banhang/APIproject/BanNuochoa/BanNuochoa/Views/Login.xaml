@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:ViewModels="clr-namespace:BanNuochoa.ViewModels"
+             mc:Ignorable="d"
+             x:Class="BanNuochoa.Views.Login">
+  
+        <ContentPage.BindingContext>
+            <ViewModels:Login_ViewModels/>
+        </ContentPage.BindingContext>
+        <ContentPage.Content>
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Entry Placeholder="Email" Text="{Binding email}"/>
+                <Entry Placeholder="password" Text="{Binding password}" IsPassword="True"/>
+                
+                <!--<Entry Placeholder="Confirm Password" IsPassword="True"/>-->
+                <Button Text="Login" CornerRadius="3" Command="{Binding LoginCommand}"/>
+                <Button Text="Register"
+                Clicked="Button_Register_OnClicked" />
+            </StackLayout>
+        </ContentPage.Content>
+
+</ContentPage>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:ViewModels="clr-namespace:BanNuochoa.ViewModels"
+             mc:Ignorable="d"
+             x:Class="BanNuochoa.MainPage">
+
+    <ContentPage.BindingContext>
+        <ViewModels:ProductViewModel/>
+        <!--<ViewModels:Customer_ViewModels/>-->
+    </ContentPage.BindingContext>
+    <StackLayout>
+        <SearchBar TextChanged="SearchBar_TextChanged"></SearchBar>
+        <ListView ItemTapped="Detail_Products" IsPullToRefreshEnabled="True" x:Name="productlistview" ItemsSource="{Binding listProducts}" HasUnevenRows="True">
+
+            <!--<ListView ItemsSource="{Binding dskhachhang}" HasUnevenRows="True">-->
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical" Padding="12,6">
+                            <Label Text="{Binding name,Mode=TwoWay}" FontSize="24"/>
+                            <Label Text="{Binding unit_price,Mode=TwoWay}" FontSize="12.6"/>
+                            <Label Text="{Binding gioitinh,Mode=TwoWay}" FontSize="24" Opacity="0.6"/>
+                            <Image Source="{Binding image}" />
+                            <!--<Button Text="đặt hàng" Clicked="dathang_clicked"/>-->
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Text="signup" Clicked="btlogin_Clicked"/>
+        <Button Text="loai nước hoa" Clicked="loainuochoa_Clicked"/>
+    </StackLayout>
+</ContentPage>

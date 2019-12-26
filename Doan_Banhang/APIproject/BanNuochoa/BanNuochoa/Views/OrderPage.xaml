@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:ViewModels="clr-namespace:BanNuochoa.ViewModels"
+             mc:Ignorable="d"
+             x:Class="BanNuochoa.Views.OrderPage">
+    
+   
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+                <Image x:Name="p_image" Source="{Binding img}" />
+                <!--<Entry x:Name="tensanpham" Placeholder="tên sản phẩm" Text="{Binding tensanpham}"/>-->
+        <Label Text="{Binding tensanpham}"/>
+        <Entry Placeholder="Số lượng" Text="{Binding quantity}"/>
+                <Label  Text="{Binding price}"/>
+                <Entry Placeholder="tên khách hàng" Text="{Binding customer}"/>
+                <Entry Placeholder="Ghi chú" Text="{Binding Note}" />
+                
+                <!--<Entry Placeholder="Confirm Password" IsPassword="True"/>-->
+        <Button Text="Đặt hàng" CornerRadius="3" Command="{Binding DathangCommand}"/>
+                <Button Text="Trở về"
+                Clicked="Back_Clicked" />
+            </StackLayout>
+
+
+</ContentPage>

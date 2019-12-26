@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="BanNuochoa.Views.Product_Details">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Padding="12,6">
+            <Label x:Name="p_description" FontSize="12" Opacity="0.6"/>
+            
+            <Label x:Name="p_price" FontSize="12" Opacity="0.6"/>
+            <Label x:Name="P_name" FontSize="12"/>
+            <Image x:Name="p_image"   />
+            <Button Text="Đặt hàng" x:Name="dathang" Clicked="dathang_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

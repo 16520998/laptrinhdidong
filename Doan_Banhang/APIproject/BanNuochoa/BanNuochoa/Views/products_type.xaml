@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:ViewModels="clr-namespace:BanNuochoa.ViewModels"
+             mc:Ignorable="d"
+             x:Class="BanNuochoa.Views.products_type">
+   
+        <ContentPage.BindingContext>
+            <ViewModels:product_type_dataViewModels/>
+            <!--<ViewModels:Customer_ViewModels/>-->
+        </ContentPage.BindingContext>
+    <StackLayout>
+        <ListView x:Name="productlistview" ItemTapped="productlistview_ItemTapped" ItemsSource="{Binding product_Types}" HasUnevenRows="True">
+
+            
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Vertical" Padding="12,6">
+
+                            <Label Text="{Binding name}" FontSize="24" />
+                           <!--<Label Text="{Binding gioitinh}" FontSize="24" Opacity="0.6"/>-->
+                            <Image Source="{Binding image}" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

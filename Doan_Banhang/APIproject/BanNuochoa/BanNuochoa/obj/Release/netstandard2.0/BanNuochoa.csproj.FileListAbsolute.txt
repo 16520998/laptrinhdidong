@@ -1,0 +1,13 @@
+C:\Users\ASUS\source\repos\APIproject\BanNuochoa\BanNuochoa\bin\Release\netstandard2.0\BanNuochoa.deps.json
+C:\Users\ASUS\source\repos\APIproject\BanNuochoa\BanNuochoa\bin\Release\netstandard2.0\BanNuochoa.dll
+C:\Users\ASUS\source\repos\APIproject\BanNuochoa\BanNuochoa\bin\Release\netstandard2.0\ref\BanNuochoa.dll
+C:\Users\ASUS\source\repos\APIproject\BanNuochoa\BanNuochoa\bin\Release\netstandard2.0\BanNuochoa.pdb
+C:\Users\ASUS\source\repos\APIproject\BanNuochoa\BanNuochoa\obj\Release\netstandard2.0\BanNuochoa.csprojAssemblyReference.cache
+C:\Users\ASUS\source\repos\APIproject\BanNuochoa\BanNuochoa\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\ASUS\source\repos\APIproject\BanNuochoa\BanNuochoa\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\ASUS\source\repos\APIproject\BanNuochoa\BanNuochoa\obj\Release\netstandard2.0\BanNuochoa.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\APIproject\BanNuochoa\BanNuochoa\obj\Release\netstandard2.0\BanNuochoa.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\APIproject\BanNuochoa\BanNuochoa\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\ASUS\source\repos\APIproject\BanNuochoa\BanNuochoa\obj\Release\netstandard2.0\BanNuochoa.dll
+C:\Users\ASUS\source\repos\APIproject\BanNuochoa\BanNuochoa\obj\Release\netstandard2.0\ref\BanNuochoa.dll
+C:\Users\ASUS\source\repos\APIproject\BanNuochoa\BanNuochoa\obj\Release\netstandard2.0\BanNuochoa.pdb
